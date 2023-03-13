@@ -1,0 +1,82 @@
+/* Set the default font family and color */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+/* Set the background color and add a background image */
+body {
+  background-color: #f5f5f5;
+  background-image: linear-gradient(45deg, #0080ff, #00bfff);
+}
+
+/* Add a box shadow to the header */
+header {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Style the navigation links */
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+/* Style the section headers */
+h2 {
+  font-size: 2em;
+  margin: 30px 0 15px;
+  color: #0080ff;
+}
+
+/* Style the section content */
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the buttons */
+button {
+  background-color: #0080ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #00bfff;
+}
+
+/* Style the footer */
+footer {
+  background-color: #444;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Add a media query to adjust the layout for smaller screens */
+@media only screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+}

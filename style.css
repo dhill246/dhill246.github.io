@@ -15,6 +15,10 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+header h1 {
+  font-size: 3em;
+}
+
 /* Style the navigation links */
 nav a {
   display: inline-block;
@@ -36,7 +40,7 @@ nav a:hover {
 h2 {
   font-size: 2em;
   margin: 30px 0 15px;
-  color: #0080ff;
+  color: #000a14;
 }
 
 /* Style the section content */

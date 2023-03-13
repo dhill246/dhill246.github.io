@@ -10,6 +10,15 @@ body {
   background-image: linear-gradient(45deg, #0080ff, #00bfff);
 }
 
+/* Center everything on the page */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* Add a box shadow to the header */
 header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
